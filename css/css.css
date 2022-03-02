@@ -1,0 +1,261 @@
+body{
+	margin: 0;
+	padding: 0;
+  width:100%;
+}]
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+  color: #000000;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.company{
+  width: 12.5rem;
+  height: 3rem;
+  border-bottom:0.0625rem #ccc solid ;
+  text-align: center;
+  margin: 0 auto;
+}
+.company span{
+  display: block;
+}
+.company span:last-child{
+  width: 1.875rem;
+  height: 0.1875rem;
+  background-color: #00baf4;
+  margin: 0.6875rem auto 0 auto;
+}
+.msg-more{
+  width:100% ;
+  height: 100%;
+}
+.card a{
+  color: #000;
+}
+.card a:hover{
+  color: #00baf4;
+}
+.share{
+  text-align: center;
+  margin-top: 5.125rem;
+  padding: 1.25rem 3.125rem !important;
+  background-color: rgb(0,186,244,0.5);
+}
+.service{
+  width: 100%;
+  height: 28.25rem;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size:100% ;
+  text-align: center;
+}
+.service img{
+   width: 3.125rem;
+}
+.job{
+  width: 100%;
+  height: 20.75rem;
+  background: url(../img/job.jpg) no-repeat;
+  background-position:center;
+  background-size: 100%;
+  padding: 6.25rem 0;
+  text-align: center;
+  color: #fff;
+}
+.job p{
+   max-width: 31.25rem;
+   margin: 1.875rem auto;
+}
+.friend{
+  width: 100%;
+  height:2.875rem;
+  background-color: #00baf4;
+  color: #fff;
+}
+.friend .container{
+  overflow: hidden;
+}
+
+.friend .container li a{
+  color: #fff;
+  padding:0.8rem 1.25rem;
+  line-height: 2.875rem;
+}
+.friend .container li a:hover{
+  border: 0.0625rem #fff solid;
+  color:#000;
+}
+.friend .container li:first-child{
+ line-height: 2.875rem;
+}
+.nav-link:hover{
+  color: #00baf4 !important;
+}
+.footer-s{
+  text-align: center;
+  background-color: #000000;
+  padding: 0.625rem 0;
+  color: #fff;
+}
+@media screen and (max-device-width:600px) {
+  .logo,.friend{
+    display: none !important;
+  }
+  .service{
+    height: 8.25rem;
+    background: none;
+  }
+  .service-1 img{
+    width: 2.125rem !important;
+  }
+  .service-1 h4{
+    font-size: 0.75rem  !important;
+    padding: 0.25rem 0 !important;
+  }
+  .share{
+    padding: 0 !important;
+    margin-top: 0.525rem;
+    margin-left: -0.9375rem;
+  }
+  .page-container{
+    height: 11rem;
+  }
+  .job{
+    padding: 0.875rem 0;
+    height: 8rem;
+    margin-top: 5.125rem;
+  }
+  .job h4{
+    font-size: 1.25rem;
+    margin-top: 0.375rem;
+  }
+  .job p{
+    max-width: 23.4375rem;
+    margin: 0 auto;
+  }
+  .footer-l{
+    display: none;
+  }
+  .footer-s ul{
+    text-align: left !important;
+    padding: 0 6.25rem;
+  }
+}
+ @media screen and (min-device-width:600px){
+   .footer-s{
+     display: none;
+   }
+ }@media screen and (max-device-width:600px) {
+  .logo,.friend{
+    display: none !important;
+  }
+  .service{
+    height: 8.25rem;
+    background: none;
+  }
+  .service-1 img{
+    width: 2.125rem !important;
+  }
+  .service-1 h4{
+    font-size: 0.75rem  !important;
+    padding: 0.25rem 0 !important;
+  }
+  .share{
+    padding: 0 !important;
+    margin-top: 0.525rem;
+    margin-left: -0.9375rem;
+  }
+  .page-container{
+    height: 11rem;
+  }
+  .job{
+    padding: 0.875rem 0;
+    height: 8rem;
+    margin-top: 5.125rem;
+  }
+  .job h4{
+    font-size: 1.25rem;
+    margin-top: 0.375rem;
+  }
+  .job p{
+    max-width: 23.4375rem;
+    margin: 0 auto;
+  }
+  .footer-l{
+    display: none;
+  }
+  .footer-s ul{
+    text-align: left !important;
+    padding: 0 6.25rem;
+  }
+}
+ @media screen and (min-device-width:600px){
+   .footer-s{
+     display: none;
+   }
+ }@media screen and (max-device-width:600px) {
+  .logo,.friend{
+    display: none !important;
+  }
+  .service{
+    height: 8.25rem;
+    background: none;
+  }
+  .service-1 img{
+    width: 2.125rem !important;
+  }
+  .service-1 h4{
+    font-size: 0.75rem  !important;
+    padding: 0.25rem 0 !important;
+  }
+  .share{
+    padding: 0 !important;
+    margin-top: 0.525rem;
+    margin-left: -0.9375rem;
+  }
+  .page-container{
+    height: 11rem;
+  }
+  .job{
+    padding: 0.875rem 0;
+    height: 8rem;
+    margin-top: 5.125rem;
+  }
+  .job h4{
+    font-size: 1.25rem;
+    margin-top: 0.375rem;
+  }
+  .job p{
+    max-width: 23.4375rem;
+    margin: 0 auto;
+  }
+  .footer-l{
+    display: none;
+  }
+  .footer-s ul{
+    text-align: left !important;
+    padding: 0 6.25rem;
+  }
+}
+ @media screen and (min-device-width:600px){
+   .footer-s{
+     display: none;
+   }
+ }
